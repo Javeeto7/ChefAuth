@@ -29,11 +29,11 @@ class Cooker
     protected $cookers = [];
 
     /**
-     * The factory instance.
+     * The cook instance.
      *
-     * @var \Reivaj86\ChefAuth\Factories\FactoryInterface
+     * @var \Reivaj86\ChefAuth\Kitchen\CookInterface
      */
-    protected $factory;
+    protected $cook;
 
     /**
      * The factory instance.
@@ -45,14 +45,14 @@ class Cooker
     /**
      * Create a new instance.
      *
-     * @param \Reivaj86\ChefAuth\Factories\FactoryInterface      $factory
+     * @param \Reivaj86\ChefAuth\Kitchen\CookInterface      $cook
      * @param \Reivaj86\ChefAuth\Transformers\TransformerFactory $transformer
      *
      * @return void
      */
-    public function __construct(FactoryInterface $factory, TransformerFactory $transformer)
+    public function __construct(CookInterface $cook, TransformerFactory $transformer)
     {
-        $this->factory = $factory;
+        $this->cook = $cooky;
         $this->transformer = $transformer;
     }
 
