@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Reivaj86\ChefAuth\Factories;
+namespace Reivaj86\ChefAuth\Kitchen;
 
 use Reivaj86\ChefAuth\CookList;
 
