@@ -1,5 +1,5 @@
 # Chef Authorization
-##Recipes, Ingredients and Categorie Login "Chef-Captcha" for Laravel 5
+##Recipes, Ingredients and Category Login "Chef-Captcha" for Laravel 5
 
 Powerful package to implement a simple but effective login authorization step. Replace the
 normal Word Captcha system with this package. It will provide a very
